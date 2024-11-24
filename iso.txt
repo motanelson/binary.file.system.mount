@@ -1,0 +1,5 @@
+boot
+  kernel.img|./data/my.txt
+  config.txt=Texto de configuração\nOutra linha
+grub
+  menu.lst=menuentry 'Boot' {\n    linux /boot/kernel.img\n}
